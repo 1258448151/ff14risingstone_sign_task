@@ -22,10 +22,10 @@ inputs:
     required: false
   check_house_remain:
     description: Whether to check the countdown to the role's house destruction
-    required: false
+    required: true
   get_sign_reward:
     description: Whether to auto get the sign reward
-    required: false
+    required: true
 
 runs:
   using: docker
